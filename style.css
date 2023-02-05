@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+/* font-family: 'DM Sans', sans-serif; */
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Manrope', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Assistant', sans-serif; */
+
+:root{
+    --white:#ffffff;
+    --text-color:#18191F;
+    --orange:#F4511E;
+    --search-color:#23A6F0;
+    --search-border:#E6E6E6;
+    --search-form-background:#F9F9F9;
+    --card-black:#000000;
+    --card-subtitle-color:#818181;
+    --supported-color:rgba(0, 0, 0, 0.5);
+    --social-text-color: #0A142F;
+    --form-text-color:#252B42;
+    --form-placeholder-color:#737373;
+    --font-family-dmSans:'DM Sans', sans-serif;
+    --font-family-inter:'Inter', sans-serif;
+    --font-family-manrope:'Manrope', sans-serif;
+    --font-family-montserrat:'Montserrat', sans-serif;
+    --font-family-assistant:'Assistant', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: linear-gradient(200.44deg, rgba(0, 0, 0, 0.0001) 16.41%, rgba(0, 0, 0, 0.51) 77.16%), url(./resources/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+nav{
+    display: flex;
+    padding-top: 2%;
+}
+
+nav ul{
+    padding-left: 200px;
+    padding-top: 14px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--font-family-dmSans);
+    font-weight: 400;
+    font-size: 1.125rem;
+    padding-left: 40px;
+}
+
+#navHorizontal{
+    height: 0.1px;
+    border: none;
+    background-color: var(--white);
+    margin-top: 1%;
+}
+
+.headerContent{
+    width: 85%;
+    margin:0 auto;
+}
+
+.heroContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.left{
+    width:60%;
+}
+
+.left h1{
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-weight: 700;
+    width: 75%;
+    font-size: 45px;
+}
+
+.right{
+    width: 40%;
+}
+
+#map{
+    height: 30em;
+    width: 80%;
+    max-width: 80%;
+    border-radius:15px;
+    box-shadow: 0px 0px 18px 3px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+
