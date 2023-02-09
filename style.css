@@ -154,8 +154,7 @@ section hr{
     background-color: var(--orange);
     border: 0;
     height:2px;
-    width: 33%;
-    max-width: 33%;
+    width: 36%;
     margin-top: 0.1%;
 }
 
@@ -169,18 +168,21 @@ section hr{
 .featuresContent{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .featuresContent img{
     position: relative;
     top: 10%;
     right: 3.7%;
+    flex: 1;
 }
 
 .featuresCard{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    flex:2;
 }
 
 .featuresCard p{
@@ -205,33 +207,36 @@ section hr{
 .featuresCard .card{
     box-shadow: 0px 12px 19px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
-    width: 30%;
+    /* width: 30%; */
     border: none;
+    width: 70px;
+    height: 70px;
 }
 
+.featureRowOne img{
+    object-fit: cover;
+    height: 37.5px;
+    width: 37.5px;
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
 
-.featureRowOne .cardOne .card img{
+.featureRowTwo img{
+    object-fit: cover;
+    height: 37.5px;
+    width: 37.5px;
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
+
+.featureRowOne .cardTwo{
     position: relative;
     left: 10%;
 }
 
-.featureRowOne .cardTwo .card{
-    
-}
-
-.featureRowOne .cardThree .card{
-    
-}
-
-
-.featureRowTwo .cardOne .card{
-    
-}
-
-.featureRowTwo .cardTwo .card{
-    
-}
-
-.featureRowTwo .cardThree .card{
-    
+.featureRowOne .cardThree{
+    position: relative;
+    left: 10%;
 }
