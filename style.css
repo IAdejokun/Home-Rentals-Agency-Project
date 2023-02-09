@@ -145,4 +145,93 @@ form select{
     outline: none;
 }
 
+section{
+    margin: 0 auto;
+    width: 85%;
+}
 
+section hr{
+    background-color: var(--orange);
+    border: 0;
+    height:2px;
+    width: 33%;
+    max-width: 33%;
+    margin-top: 0.1%;
+}
+
+.features h2{
+    margin-top: 55px;
+    font-family: var(--font-family-inter);
+    font-weight: 800;
+    font-size: 2.25em;
+}
+
+.featuresContent{
+    display: flex;
+    flex-direction: row;
+}
+
+.featuresContent img{
+    position: relative;
+    top: 10%;
+    right: 3.7%;
+}
+
+.featuresCard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.featuresCard p{
+    font-family: var(--font-family-inter);
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10%;
+    text-align: left;
+    width: 80%;
+}
+
+.featureRowOne{
+    display: flex;
+    margin-top: 10%;
+    margin-bottom:38%;
+}
+
+.featureRowTwo{
+    display: flex;
+}
+
+.featuresCard .card{
+    box-shadow: 0px 12px 19px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    width: 30%;
+    border: none;
+}
+
+
+.featureRowOne .cardOne .card img{
+    position: relative;
+    left: 10%;
+}
+
+.featureRowOne .cardTwo .card{
+    
+}
+
+.featureRowOne .cardThree .card{
+    
+}
+
+
+.featureRowTwo .cardOne .card{
+    
+}
+
+.featureRowTwo .cardTwo .card{
+    
+}
+
+.featureRowTwo .cardThree .card{
+    
+}
